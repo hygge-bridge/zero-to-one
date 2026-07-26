@@ -261,58 +261,33 @@
 
 
 
-# EffectiveModernC++
+# CS106L
 
-## Item 8: Prefer nullptr to 0 and NULL.
+## 3
 
-|                   |                                                              |
-| ----------------- | ------------------------------------------------------------ |
-| grudgingly        | 不情愿的                                                     |
-| fallback position | 备用方案/最低可接受底线                                      |
-| primary           | 强调“时间/顺序/重要性上排第一”                               |
-| leeway            | 自由空间/灵活余地	强调“规则/计划内的弹性调整空间”         |
-| apparent          | 明显的（容易看出/理解）或表面上的	强调“从外表或表象上可以察觉”，可能是真的也可能不是 |
-| notwithstanding   | not（不）+ withstanding（抵御/抵抗）→ “不被……抵御住”→“即便有……（阻力）也不受影响” |
-| it’s likely that  | 较高（> 50%）	有很大机会发生或属实                        |
-| code base         | 代码库，在软件开发中，所有功能、模块和业务逻辑都是“建立在”已有的代码基础之上的。现有代码是整个系统的“地基”——因此被称为 *base* |
-| The failure to    | 通常带有否定评价色彩——暗示“本应该做到但没做到”               |
-| count for         | count 的本义是“数数/计算”。把一件事“算进去”就表示它在最终结果中占了位置；如果“算不进/不算数”，则意味着没有价值。<br/><br/>当我们说某事物 counts for something 时，意思是“它能够在最终评估中被算作一项积极因素”，也就是“有价值、有分量” |
-| disturbing        | dis-（分开）+ turbare（扰乱、搅动）（原义指物理上搅动液体，使秩序混乱），后来引申为“扰乱心神”。 |
-| figure out        | 弄明白；想出。强调“**通过思考、推理、分析**来理解或解决”，是主动的脑力活动 |
-| Run-of-the-mill   | “（从）磨坊（里）跑（出来）的”——指工厂或磨坊里**大批量、连续生产出来的标准化产品**，没有经过特殊挑选或精加工。引申义：普通的、平凡的，只要“没有特别之处”，就可以用这个词 |
-| susceptible       | 易受影响的；易患的	强调“容易受到外部因素的作用”，可以是正面或负面，中性偏客观 |
-| ironclad          | 由 iron（铁）+ clad（被……覆盖的，来自古英语 clāþ → “覆盖物”）组成，字面义为“被铁包裹的”。引申到所有物体上，都可以表示无法摧毁 |
+|                  |                                                              |
+| ---------------- | ------------------------------------------------------------ |
+| game plan        | **字面义**：比赛（如橄榄球、篮球等）中的战术布置图或赛前制定的战术方案。<br /> **引申义**：为达成任何目标（不限于体育）而事先制定的系统性步骤或策略。 |
+| go over          | **字面义**：“从上方走过去”或“越过某物”。 **引申义**：① 仔细检查（逐一“走过”细节）；② 复习（重新“过一遍”学习内容）；③ 详细讨论（把要点“过一遍”）。 |
+| token            | a token is a symbol or sign of a feeling, fact, or event.    |
+| informative      | Something that is informative gives you useful information   |
+| get to the point | **字面义**：“到达（某个）点/要害位置”。 **引申义**：直接说出最重要或最核心的内容，不绕圈子、不铺垫冗长细节 |
+| play around with | **字面义**：“在某物周围玩耍/嬉戏”。 **引申义**：① 不严肃、无目的地摆弄某物（像小孩玩玩具一样）；② 对某个想法或计划进行“轻量级”尝试，未投入严肃承诺；③ （贬义）对感情不忠。 |
+| run through      | **字面义**：“跑着穿过”某空间（如跑着穿过隧道）。 **引申义**：① 快速“走过”一个流程或清单（从起点到终点，速度快、不深入）；② 某个东西（如主题、特征）“跑着贯穿”整个作品（即始终存在）；③ 金钱像跑步一样“穿过”你的手，瞬间就没了（挥霍）。 |
+| stall            | **引申义**：① 让某事物“停下来”或“卡住”（如引擎熄火、谈判停滞）；② 故意“把人卡在某个位置”以争取时间（即拖延战术）。 |
+| extraction       | the act of removing or obtaining something from something else |
+| takeaway         | **字面义**：从餐馆“带走”（take away）的食物。这个字面意思源于外卖场景——你点餐后“带走”食物，而不是在店内食用。 **引申义**：从一次经历、会议、演讲或阅读中“带走”的东西——即你脑海中最有价值、最值得记住的那一条信息或感悟。就像你从餐馆带走食物一样，从一场讲座或一本书里，你也能“带走”一些精神上的“食粮” |
+| symptom          | **字面义**（医学）：“symptom”源于希腊语 *symptōma*，意为“偶然发生的事故”或“身体状态的变化”，在医学中特指病人主观感受到的异常现象（如头痛、恶心），与“体征（sign）”不同——体征是医生客观观察到的（如发烧、皮疹）。 **引申义**（隐喻）：“symptom”常用来指某一更深层问题的 **“外在表现”** 。比如，公司员工离职率高是“symptom”，真正的“病因”可能是管理不善或薪酬太低；交通拥堵是“symptom”，根本问题可能是城市规划不合理 |
+| erroneous        | containing or based on false information or incorrect ideas; wrong |
+| inherently       | in a way that exists as a natural and permanent part of something |
+| allude           | to mention something in an indirect way, without saying it directly. |
+| manifest         | to show a feeling, attitude, or quality clearly              |
+| all the way      | “全程、不中断”                                               |
+| extensively      | in a way that covers a large area or involves a lot of detail, time, or effort |
+| spot             | to see or notice someone or something, especially suddenly or when they are difficult to see |
+| controversial    | causing a lot of disagreement or strong public debate        |
+| coherent         | logical and well-organized, making it easy to understand     |
+| blunt            | speaking in a very direct and honest way, without considering other people's feelings |
+|                  |                                                              |
+|                  |                                                              |
 
-问题：
-
-- void*和intergral type的重载
-- 接受空指针的模版
-
-## Item 9: Prefer alias declarations to typedefs
-
-|                         |                                                              |
-| ----------------------- | ------------------------------------------------------------ |
-| be fond of              | **fond** 源自古英语 *fonn*（愚蠢的、疯狂的），最初在古英语中带有“过度迷恋”或“盲目喜爱”的意味。但在现代英语中，它已经完全失去了负面含义，变成了**温和、持久的喜爱**。 在正式或文学性写作中，*fond of* 常用来表达对**事物、习惯或回忆**的温柔情感，而不是一时冲动的激情 |
-| carpal tunnel syndrome. | **腕管综合征**<br />carpal 腕的；腕部的<br />tunnel 隧道；通道”（此处指腕骨围成的通道）<br />syndrome 综合征；症候群（一组同时出现的医学症状或特征，通常指向某种特定疾病或状况） |
-| tragedy                 | 悲剧；惨剧	强调“令人极度悲伤”和“情感冲击”，不一定规模大   |
-| get to                  | 到达；谈到；开始处理                                         |
-| swallow                 | 吞下                                                         |
-| **Hack together**       | **字面义**："hack" 原指“砍、劈”；在电脑文化中演变为“用非常规手段解决技术问题”。 **引申义**："hacked together" 指**使用非标准、不优雅、缺乏周密设计的手段来构建软件或解决方案**，通常是由于时间紧迫或工具限制。 |
-| endear                  | **词源**：来自中古英语 *endere*，源于古英语 *dēore*（珍贵的、亲爱的）。前缀 *en-*（使……成为）+ *dear*（亲爱的）→ “使……变成亲爱的”→ 即“让别人觉得你可爱/讨喜”。 **核心意象**：*endearing* 不是“感到喜爱的人”（那是 *dear* 或 *beloved*），而是**那些能“引发”别人喜爱情绪的特质或行为**。 |
-| concoct                 | **词源**：来自拉丁语 *concoquere* = *com-*（一起）+ *coquere*（煮）→ “一起煮”。原指通过加热将多种材料“煮”成一种混合物。 **隐喻逻辑**：  **烹饪/调制**（本义）：把不同的食材“一起煮”→ 做出一道菜或饮料。 **编造/杜撰**（引申）：把不同的事实片段或想象“一起煮”→ 编出一个故事或借口。 **策划/谋划**（引申）：把不同的想法或步骤“一起煮”→ 设计出一个方案。 **核心意象**：*concoct* 总是暗示**将不同元素组合成一个新的整体**，无论是食物、故事还是计划。 |
-| **bumped up against**   | 字面义：走路或移动时，身体不小心“撞上”了某个物体（如桌子、墙壁）。<br/><br/>引申义：在做事的过程中，你不小心“撞上”了某个抽象的东西——如一个难题、一个限制、一个政策、或一个人的存在。这种“碰撞”是意外的、非计划内的，常带有“突然发现障碍”的意味。 |
-| trait                   | **特征；特点**（指一个人相对稳定、持久的性格品质或行为倾向） |
-| **assortment**          | 什锦/混合/种类	强调“不同种类事物的混合体”，通常带有“供选择”的意味 |
-|                         |                                                              |
-|                         |                                                              |
-|                         |                                                              |
-|                         |                                                              |
-|                         |                                                              |
-|                         |                                                              |
-|                         |                                                              |
-|                         |                                                              |
-
-advantages:
-
-- function pointers(not compelling)
-- templates
