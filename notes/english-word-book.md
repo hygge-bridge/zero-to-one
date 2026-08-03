@@ -231,6 +231,30 @@
 |                  |                                                              |
 |                  |                                                              |
 
+## 16 Iterator
+
+|                 |                                                              |
+| --------------- | ------------------------------------------------------------ |
+| advance         | to move forward, especially in a purposeful way              |
+| otherwise       | apart from that; in other respects;                          |
+| use up          | to completely consume                                        |
+| mutate          | to change into something very different.                     |
+| all the way     | completely or fully                                          |
+| a great deal of | a large amount of (something), especially when it is considered significant or considerable |
+| palindrome      | a word or phrase that reads the same backwards as forwards, such as "level". |
+| aside from      | except for; not including;                                   |
+| draw card       | 抽一张牌                                                     |
+|                 |                                                              |
+|                 |                                                              |
+|                 |                                                              |
+|                 |                                                              |
+|                 |                                                              |
+|                 |                                                              |
+|                 |                                                              |
+|                 |                                                              |
+|                 |                                                              |
+|                 |                                                              |
+
 
 
 # CMake Tutorial
